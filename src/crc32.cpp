@@ -30,14 +30,6 @@ uint32_t calculate_crc(const uint8_t *data, size_t length)
     return ~crc;
 }
 
-int main(){
 
-uint8_t buffer[] = {0x01, 0x02, 0x03, 0x04};
-
-cout<<(calculate_crc(buffer,4));
-
-
-    return 0;
-}
 
 

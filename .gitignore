@@ -69,3 +69,9 @@ Testing/
 
 .vscode/
 structure.png
+
+# Claude Code local settings
+.claude/
+
+# WAL data / test output
+*.wal
