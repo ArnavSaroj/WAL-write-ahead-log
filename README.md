@@ -1,4 +1,4 @@
-# WAL - Write-Ahead Log (toy implementation)
+# WAL - Write-Ahead Log 
 
 A small, educational write-ahead log written in C++. Records are appended to an
 append-only file with a checksummed header, forced to disk durably, and replayed
